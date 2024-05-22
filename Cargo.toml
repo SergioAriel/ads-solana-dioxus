@@ -1,0 +1,18 @@
+[package]
+name = "ADS-solana"
+version = "0.1.0"
+authors = ["sergiosolis"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dioxus = { version = "0.5", features = ["web", "router"] }
+reqwest = { version = "0.11.23", features = ["json"] }
+
+# Debug
+tracing = "0.1.40"
+dioxus-logger = "0.5.0"
+manganis = "0.2.2"
+log = "0.4.21"
+serde = "1.0.202"
